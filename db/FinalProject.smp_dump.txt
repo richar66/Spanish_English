@@ -161,3 +161,80 @@ ST.00 0 0 0 0
 ST.01 0 0 1 1 
 ST.10 0 1 0 1 
 ST.11 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw10|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw9|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw8|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw7|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw6|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw5|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw4|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw3|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw2|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw1|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 
+
+State Machine - |FinalProject|debounce_DE2_SW:deb|debouncer:sw0|b_state
+Name b_state.OFF_2_ON b_state.ON b_state.ON_2_OFF b_state.OFF 
+b_state.OFF 0 0 0 0 
+b_state.ON_2_OFF 0 0 1 1 
+b_state.ON 0 1 0 1 
+b_state.OFF_2_ON 1 0 0 1 

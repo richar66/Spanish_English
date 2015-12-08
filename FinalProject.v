@@ -190,7 +190,8 @@ parameter
 				
 				
 				
-				
+		wire [10:0]SWO;
+debounce_DE2_SW deb(clk, rst, answer, SWO);		
 			//	End = 10'd100;
 
 
@@ -1737,7 +1738,7 @@ begin
 		Q0: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd3;
@@ -1766,7 +1767,7 @@ begin
 	Q1: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd4;
@@ -1794,7 +1795,7 @@ begin
 	Q2: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd5;
@@ -1822,7 +1823,7 @@ begin
 	Q3: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd6;
@@ -1849,7 +1850,7 @@ begin
 		Q4: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd7;
@@ -1876,7 +1877,7 @@ begin
 	Q5: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd8;
@@ -1903,7 +1904,7 @@ begin
 	Q6: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd9;
@@ -1931,7 +1932,7 @@ begin
 	Q7: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd10;
@@ -1958,7 +1959,7 @@ begin
 	Q8: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd11;
@@ -1985,7 +1986,7 @@ begin
 	Q9: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd12;
@@ -2013,7 +2014,7 @@ begin
 	Q10: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd13;
@@ -2041,7 +2042,7 @@ begin
 	Q11: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd14;
@@ -2069,7 +2070,7 @@ begin
 	Q12: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd15;
@@ -2097,7 +2098,7 @@ begin
 	Q13: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd16;
@@ -2124,7 +2125,7 @@ begin
 		Q14: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd17;
@@ -2151,7 +2152,7 @@ begin
 	Q15: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd18;
@@ -2178,7 +2179,7 @@ begin
 	Q20: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd19;
@@ -2206,7 +2207,7 @@ begin
 	Q30: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd20;
@@ -2233,7 +2234,7 @@ begin
 		Q40: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd21;
@@ -2260,7 +2261,7 @@ begin
 	Q50: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd22;
@@ -2287,7 +2288,7 @@ begin
 	Q60: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd23;
@@ -2315,7 +2316,7 @@ begin
 	Q70: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd24;
@@ -2342,7 +2343,7 @@ begin
 	Q80: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd25;
@@ -2369,7 +2370,7 @@ begin
 	Q90: 
 		begin
 		Pulse <= 1'b0;
-		Answer <= answer;
+		Answer <= SWO;
 		greenOut <= 1'b0;
 		redOut <= 1'b0;
 		Display <= 5'd26;
@@ -2411,4 +2412,80 @@ lcdlab1 info(
 );
 
 
+endmodule
+
+module debounce_DE2_SW (clk, rst_n, answer, SWO);
+input rst_n, clk;
+input [10:0]answer;
+output [10:0]SWO;
+wire [10:0]SWO;
+
+debouncer sw0(clk, rst_n, answer[0], SWO[0]);
+debouncer sw1(clk, rst_n, answer[1], SWO[1]);
+debouncer sw2(clk, rst_n, answer[2], SWO[2]);
+debouncer sw3(clk, rst_n, answer[3], SWO[3]);
+debouncer sw4(clk, rst_n, answer[4], SWO[4]);
+debouncer sw5(clk, rst_n, answer[5], SWO[5]);
+debouncer sw6(clk, rst_n, answer[6], SWO[6]);
+debouncer sw7(clk, rst_n, answer[7], SWO[7]);
+debouncer sw8(clk, rst_n, answer[8], SWO[8]);
+debouncer sw9(clk, rst_n, answer[9], SWO[9]);
+debouncer sw10(clk, rst_n, answer[10], SWO[10]);
+
+
+endmodule
+
+module debouncer (clk, rst_n, noisy, clean);
+input rst_n, clk, noisy;
+output clean;
+   
+reg xnew, clean;
+
+reg [1:0] b_state;
+reg [19:0] b_counter;
+
+parameter 	ON=		2'd0, 
+		ON_2_OFF=	2'd1, 
+		OFF=		2'd2, 
+		OFF_2_ON=	2'd3;
+
+always @ (posedge clk or negedge rst_n) 
+begin
+	if (rst_n == 1'b0) 
+	begin
+		b_state <= OFF;
+		b_counter <= 20'b0;
+		clean <= 1'b0;
+	end
+	else 
+	begin
+		case (b_state)
+			ON:
+			begin
+				b_state <= (noisy == 1'b0) ? ON_2_OFF : ON; 
+				b_counter <= 20'b0;
+				clean <= 1'b1;
+			end
+			OFF:
+			begin
+				b_state <= (noisy == 1'b1) ? OFF_2_ON : OFF; 
+				b_counter <= 20'b0;
+				clean <= 1'b0;
+			end
+			ON_2_OFF:
+			begin
+				b_state <= (b_counter >= 20'd5000) ? OFF : ON_2_OFF; 
+				b_counter <= b_counter + 1'b1;
+				clean <= 1'b1;
+			end
+			OFF_2_ON:
+			begin
+				b_state <= (b_counter >= 20'd5000) ? ON : OFF_2_ON; 
+				b_counter <= b_counter + 1'b1;
+				clean <= 1'b0;
+			end
+		endcase
+	end
+end
+	
 endmodule
