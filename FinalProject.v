@@ -414,7 +414,7 @@ begin
 			NS = correct2;
 		end
 	end
-	pulseC2:NS =Q4;
+	pulseC2:NS =Q3;
 	pulseW2:	NS= Q2;
 	Q4:
 	begin
@@ -473,7 +473,7 @@ begin
 			NS = correct4;
 		end
 	end
-	pulseC4:NS =Q3;
+	pulseC4:NS =Q5;
 	pulseW4:	NS= Q4;
 	//*
 	Q3:
@@ -535,7 +535,7 @@ begin
 			NS = correct3;
 		end
 	end
-	pulseC3:NS = Q5;
+	pulseC3:NS = Q4;
 	
 	pulseW3:	NS= Q3;
 	
@@ -1031,7 +1031,7 @@ begin
 			NS = correct12;
 		end
 	end
-	pulseC12:NS =Q14;
+	pulseC12:NS =Q13;
 	pulseW12:	NS= Q12;
 	Q14:
 	begin
@@ -1090,7 +1090,7 @@ begin
 			NS = correct14;
 		end
 	end
-	pulseC14:NS =Q13;
+	pulseC14:NS =Q15;
 	pulseW14:	NS= Q14;
 	//*
 	Q13:
@@ -1152,7 +1152,7 @@ begin
 			NS = correct13;
 		end
 	end
-	pulseC13:NS = Q15;
+	pulseC13:NS = Q14;
 	
 	pulseW13:	NS= Q13;
 	
@@ -1276,7 +1276,7 @@ begin
 			NS = correct20;
 		end
 	end
-	pulseC20:NS = Q40;
+	pulseC20:NS = Q30;
 	pulseW20:	NS= Q20;
 	Q40:
 	begin
@@ -1335,7 +1335,7 @@ begin
 			NS = correct40;
 		end
 	end
-	pulseC40:NS =Q30;
+	pulseC40:NS =Q50;
 	pulseW40:	NS= Q40;
 	//*
 	Q30:
@@ -1397,7 +1397,7 @@ begin
 			NS = correct30;
 		end
 	end
-	pulseC30:NS = Q50;
+	pulseC30:NS = Q40;
 	
 	pulseW30:	NS= Q30;
 	
